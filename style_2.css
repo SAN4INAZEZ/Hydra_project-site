@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 507px;
+  height: 667px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form h1 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.email_div {
+  gap: 8px;
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+label {
+  text-transform: capitalize;
+}
+input {
+  font-size: 22px;
+  height: 70px;
+  border-radius: 15px;
+  background: none;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+}
+.password_div {
+  gap: 8px;
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+.link_forgot {
+  margin-top: 10px;
+  display: flex;
+  text-transform: capitalize;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.link_forgot a {
+  text-decoration: none;
+  color: #1a7fc1;
+}
+.link_forgot a:hover {
+  text-decoration: underline;
+}
+.log_in_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 27px auto;
+  margin-bottom: 0;
+  width: 490px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #1a7fc1;
+}
+.log_in_button a {
+  text-transform: capitalize;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+}
+.or {
+  display: flex;
+  align-items: center;
+  margin: 27px auto;
+}
+.first_line {
+  margin-right: 13px;
+  width: 164px;
+  height: 2px;
+  background: white;
+}
+.or p {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.second_line {
+  margin-left: 13px;
+  width: 164px;
+  height: 2px;
+  background: white;
+}
+.icons {
+  margin: 0 auto;
+  display: flex;
+  gap: 27px;
+}
+.sign_up {
+  margin: 0 auto;
+  margin-top: 27px;
+  font-size: 20px;
+}
+.sign_up p::first-letter {
+  text-transform: uppercase;
+}
+.sign_up p a {
+  margin-left: 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #1a7fc1;
+}
+.sign_up p a:hover {
+  text-decoration: underline;
+}
