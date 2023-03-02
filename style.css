@@ -76,7 +76,7 @@ body {
   border: 2px solid rgb(0, 0, 0);
   color: #343045;
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .header_buttons .join_hydra {
   width: 155px;
@@ -97,7 +97,7 @@ body {
   border: 2px solid #ffffff;
   color: white;
   background: #343045;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .under_header_sec {
   margin-top: 145px;
